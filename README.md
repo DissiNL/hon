@@ -1,4 +1,4 @@
-Base don the work of Andre0512
+Based on the work of Andre0512
 
 # Haier hOn
 [![hacs_badge](https://img.shields.io/badge/hacs-Default-41BDF5.svg)](https://hacs.xyz)
