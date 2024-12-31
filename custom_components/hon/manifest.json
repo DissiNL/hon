@@ -2,7 +2,7 @@
   "domain": "hon",
   "name": "Haier hOn",
   "codeowners": [
-    "@Andre0512"
+    "@DissiNL"
   ],
   "config_flow": true,
   "documentation": "https://github.com/dissinl/hon/",
