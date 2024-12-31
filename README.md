@@ -1,11 +1,13 @@
+Base don the work of Andre0512
+
 # Haier hOn
 [![hacs_badge](https://img.shields.io/badge/hacs-Default-41BDF5.svg)](https://hacs.xyz)
-[![GitHub](https://img.shields.io/github/license/Andre0512/hon?color=red)](https://github.com/Andre0512/hon/blob/main/LICENSE)
-[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/Andre0512/hon/python_check.yml?branch=main&label=checks)](https://github.com/Andre0512/hon/actions/workflows/python_check.yml)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-donate-orange.svg)](https://www.buymeacoffee.com/andre0512)  
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Andre0512/hon?color=green)](https://github.com/Andre0512/hon/releases/latest)
-[![GitHub all releases](https://img.shields.io/github/downloads/Andre0512/hon/latest/total?color=blue&label=downloads)](https://tooomm.github.io/github-release-stats/?username=Andre0512&repository=hon)
-[![GitHub all releases](https://img.shields.io/github/downloads/Andre0512/hon/total?color=blue&label=total%20downloads)](https://tooomm.github.io/github-release-stats/?username=Andre0512&repository=hon)
+[![GitHub](https://img.shields.io/github/license/DissiNL/hon?color=red)](https://github.com/DissiNL/hon/blob/main/LICENSE)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/DissiNL/hon/python_check.yml?branch=main&label=checks)](https://github.com/DissiNL/hon/actions/workflows/python_check.yml)
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-donate-orange.svg)](https://www.buymeacoffee.com/DissiNL)  
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/DissiNL/hon?color=green)](https://github.com/DissiNL/hon/releases/latest)
+[![GitHub all releases](https://img.shields.io/github/downloads/DissiNL/hon/latest/total?color=blue&label=downloads)](https://tooomm.github.io/github-release-stats/?username=DissiNL&repository=hon)
+[![GitHub all releases](https://img.shields.io/github/downloads/DissiNL/hon/total?color=blue&label=total%20downloads)](https://tooomm.github.io/github-release-stats/?username=DissiNL&repository=hon)
 
 ---
 
@@ -14,18 +16,18 @@ Home Assistant integration for [Haier's mobile app hOn](https://hon-smarthome.co
 ---
 
 
-[![Supported Languages](https://img.shields.io/badge/Languages-28-royalblue)](https://github.com/Andre0512/hon#supported-languages)
-[![Supported Appliances](https://img.shields.io/badge/Appliances-11-forestgreen)](https://github.com/Andre0512/hon#supported-appliances)
-[![Supported Models](https://img.shields.io/badge/Models-134-yellowgreen)](https://github.com/Andre0512/hon#supported-appliances)
-[![Supported Entities](https://img.shields.io/badge/Entities-320-crimson)](https://github.com/Andre0512/hon#supported-appliances)
+[![Supported Languages](https://img.shields.io/badge/Languages-28-royalblue)](https://github.com/DissiNL/hon#supported-languages)
+[![Supported Appliances](https://img.shields.io/badge/Appliances-11-forestgreen)](https://github.com/DissiNL/hon#supported-appliances)
+[![Supported Models](https://img.shields.io/badge/Models-134-yellowgreen)](https://github.com/DissiNL/hon#supported-appliances)
+[![Supported Entities](https://img.shields.io/badge/Entities-320-crimson)](https://github.com/DissiNL/hon#supported-appliances)
 
 ## Takedown Story
 Haier sent a takedown notice and threatened legal action. The community started a big riot and called for a Haier boycott, the repository was forked over 2000+ times to make the code undeletable. Haier starts a dialog to find a joint solution. Read all about it here:  
-- [Timeline of events](https://github.com/Andre0512/hon/blob/main/takedown_timeline.md)
-- [Takedown FAQs](https://github.com/Andre0512/hon/blob/main/takedown_faq.md)
-- [Main discussion](https://github.com/Andre0512/hon/issues/147)
+- [Timeline of events](https://github.com/DissiNL/hon/blob/main/takedown_timeline.md)
+- [Takedown FAQs](https://github.com/DissiNL/hon/blob/main/takedown_faq.md)
+- [Main discussion](https://github.com/DissiNL/hon/issues/147)
 - [Summary video](https://www.youtube.com/watch?v=ayG7o74kdbc)
-- [Haier's Statement](https://github.com/Andre0512/hon/issues/147#issuecomment-1923622715)
+- [Haier's Statement](https://github.com/DissiNL/hon/issues/147#issuecomment-1923622715)
 
 ## Supported Appliances
 _Click to expand..._
@@ -735,11 +737,11 @@ Support has been confirmed for these **44 models**, but many more will work. Ple
 
 
 ## Installation
-**Method 1:** [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=Andre0512&repository=hon&category=integration)
+**Method 1:** [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DissiNL&repository=hon&category=integration)
 
 **Method 2:** [HACS](https://hacs.xyz/) > Integrations > Add Integration > **Haier hOn** > Install  
 
-**Method 3:** Manually copy `hon` folder from [latest release](https://github.com/Andre0512/hon/releases/latest) to `config/custom_components` folder.
+**Method 3:** Manually copy `hon` folder from [latest release](https://github.com/DissiNL/hon/releases/latest) to `config/custom_components` folder.
 
 _Restart Home Assistant_
 
@@ -799,7 +801,7 @@ The apps on this (incomplete) list have been requested so far:
 Any kind of contribution is welcome!
 
 
-| Please add your appliances data to our [hon-test-data collection](https://github.com/Andre0512/hon-test-data). <br/>This helps us to develop new features and not to break compatibility in newer versions. |
+| Please add your appliances data to our [hon-test-data collection](https://github.com/DissiNL/hon-test-data). <br/>This helps us to develop new features and not to break compatibility in newer versions. |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 
@@ -809,7 +811,7 @@ For every device exists a button under diagnostics which can be used to log all 
 1. Press the button to create a notification
 2. Open home assistant notifications and copy the message (Crtl+A, Ctrl+C)
 ### Add appliances or additional attributes
-1. Install [pyhOn](https://github.com/Andre0512/pyhOn)
+1. Install [pyhOn](https://github.com/DissiNL/pyhOn)
    ```commandline
     $ pip install pyhOn
     ```
@@ -845,12 +847,12 @@ For every device exists a button under diagnostics which can be used to log all 
             ),
         ...
     ```
-5. Create a [pull request](https://github.com/Andre0512/hon/pulls)
+5. Create a [pull request](https://github.com/DissiNL/hon/pulls)
 
 #### Tips and Tricks
 - If you want to have some states humanreadable, have a look at the `translation_key` parameter of the `EntityDescription`.
 - If you need to implement some more logic, create a pull request to the underlying library. There we collect special requirements in the `appliances` directory.
-- Use [pyhOn's translate command](https://github.com/Andre0512/pyhOn#translation) to read out the official translations
+- Use [pyhOn's translate command](https://github.com/DissiNL/pyhOn#translation) to read out the official translations
 
 ## Special Thanks
 - to [@alexandre-leites](https://github.com/alexandre-leites), [@MiguelAngelLV](https://github.com/MiguelAngelLV) and [@drudgebg](https://github.com/drudgebg) for contributing early to this project and adding new integrations.
@@ -861,6 +863,6 @@ For every device exists a button under diagnostics which can be used to log all 
 ## Support
 If you find this project helpful and would like to support its development, you can buy me a coffee! ☕
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/andre0512)
+[!["Buy Me A Coffee Andre0512"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/Andre0512)
 
 Don't forget to star the repository if you found it useful! ⭐
