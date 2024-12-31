@@ -14,14 +14,10 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - home-assistant: "2024.2.0"
-            python-version: "3.11"
-          - home-assistant: "2024.2.0"
+          - home-assistant: "2024.12.0"
             python-version: "3.12"
-          - home-assistant: "2024.3.0"
-            python-version: "3.11"
-          - home-assistant: "2024.3.0"
-            python-version: "3.12"
+          - home-assistant: "2024.12.0"
+            python-version: "3.13"
 
     steps:
     - uses: actions/checkout@v3
