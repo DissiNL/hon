@@ -844,7 +844,8 @@ class HonSensorEntity(HonEntity, SensorEntity):
             value = str(get_readable(self.entity_description, value))
         if not value and self.entity_description.state_class is not None:
             self._attr_native_value = 0
-        self._attr_native_value = value
+        else:
+          self._attr_native_value = value
         if update:
             self.async_write_ha_state()
 
