@@ -2,29 +2,29 @@ import logging
 from dataclasses import dataclass
 
 from homeassistant.components.sensor import (
-    SensorEntity,
-    SensorDeviceClass,
-    SensorStateClass,
-    SensorEntityDescription,
+  SensorEntity,
+  SensorDeviceClass,
+  SensorStateClass,
+  SensorEntityDescription,
 )
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import (
-    PERCENTAGE,
-    CONCENTRATION_MICROGRAMS_PER_CUBIC_METER,
-    CONCENTRATION_PARTS_PER_MILLION,
+  PERCENTAGE,
+  CONCENTRATION_MICROGRAMS_PER_CUBIC_METER,
+  CONCENTRATION_PARTS_PER_MILLION,
 )
 from homeassistant.const import (
-    REVOLUTIONS_PER_MINUTE,
-    UnitOfEnergy,
-    UnitOfVolume,
-    UnitOfMass,
-    UnitOfTime,
-    UnitOfTemperature,
+  REVOLUTIONS_PER_MINUTE,
+  UnitOfEnergy,
+  UnitOfVolume,
+  UnitOfMass,
+  UnitOfTime,
+  UnitOfTemperature,
 )
+from homeassistant.core import HomeAssistant
 from homeassistant.core import callback
 from homeassistant.helpers.entity import EntityCategory
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
-from homeassistant.helpers.typing import HomeAssistantType
 
 from . import const
 from .const import DOMAIN
@@ -808,7 +808,7 @@ SENSORS["WD"] = unique_entities(SENSORS["WM"], SENSORS["TD"])
 
 
 async def async_setup_entry(
-    hass: HomeAssistantType, entry: ConfigEntry, async_add_entities: AddEntitiesCallback
+    hass: HomeAssistant, entry: ConfigEntry, async_add_entities: AddEntitiesCallback
 ) -> None:
     entities = []
     entity: HonSensorEntity | HonConfigSensorEntity

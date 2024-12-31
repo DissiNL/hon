@@ -5,11 +5,11 @@
     "@Andre0512"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/Andre0512/hon/",
+  "documentation": "https://github.com/dissinl/hon/",
   "iot_class": "cloud_push",
-  "issue_tracker": "https://github.com/Andre0512/hon/issues",
+  "issue_tracker": "https://github.com/dissinl/hon/issues",
   "requirements": [
-    "pyhOn==0.17.5"
+    "pyhon==0.17.5"
   ],
   "version": "0.14.0"
 }
