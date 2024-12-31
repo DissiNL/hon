@@ -4,7 +4,7 @@ Base don the work of Andre0512
 [![hacs_badge](https://img.shields.io/badge/hacs-Default-41BDF5.svg)](https://hacs.xyz)
 [![GitHub](https://img.shields.io/github/license/DissiNL/hon?color=red)](https://github.com/DissiNL/hon/blob/main/LICENSE)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/DissiNL/hon/python_check.yml?branch=main&label=checks)](https://github.com/DissiNL/hon/actions/workflows/python_check.yml)
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-donate-orange.svg)](https://www.buymeacoffee.com/DissiNL)  
+[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-donate-orange.svg)](https://www.buymeacoffee.com/Andre0512)  
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/DissiNL/hon?color=green)](https://github.com/DissiNL/hon/releases/latest)
 [![GitHub all releases](https://img.shields.io/github/downloads/DissiNL/hon/latest/total?color=blue&label=downloads)](https://tooomm.github.io/github-release-stats/?username=DissiNL&repository=hon)
 [![GitHub all releases](https://img.shields.io/github/downloads/DissiNL/hon/total?color=blue&label=total%20downloads)](https://tooomm.github.io/github-release-stats/?username=DissiNL&repository=hon)
